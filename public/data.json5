@@ -1,0 +1,153 @@
+{
+  // 页面title
+  title: "VsKendo - 个人主页",
+  // 社交链接
+  social: {
+    github: "https://github.com/VsKendo",
+    twitter: "https://twitter.com/Vs_Kendo",
+  },
+  // banner页
+  banner: {
+    anchor: {
+      id: "banner",
+      icon: "home",
+      name: "首页",
+    },
+    title: "Hi！I'm Versus Kendo",
+    desc: [
+      "是个学生",
+      "热爱算法",
+      "算是个码农",
+      "单身可撩",
+      "喜欢摄影",
+    ],
+  },
+  // 正文
+  // 不要修改各模块的 anchor.id
+  // 通过display控制模块是否展示
+  // 通过列表顺序控制模块展示顺序
+  modules: [
+    // 关于页
+    {
+      display: true,
+      anchor: {
+        id: "about",
+        icon: "user",
+        name: "关于"
+      },
+      header: {
+        title: "information",
+        subtitle: "about me",
+      },
+      content: {
+        name: "VsKendo（即 Versus Kendo），意为 '剑道对决'",
+        desc: [
+          "面对强大的对手，明知不敌，也要毅然亮剑",
+          "即使倒下，也要成为一座山，一道岭！",
+        ],
+        md: "这个昵称的灵感来源于电视剧《亮剑》的主角李云龙所说的\"亮剑精神\"。\
+        \n本人男，生于广东，纯男方汉子，目前正在读书，专业为软件工程~\
+        \n『曾打过ACM，可惜并没能获奖。只有一些蓝桥杯、天梯赛的奖项...\
+        \n有过论文、有过项目，后端一枚，热情投身猿类大军~\
+        \n陌生人，很高兴遇见你\
+        \n希望可以在未来，无论是什么样的事情，我们都不会忘记很重要的东西』",
+      },
+      // key - value 数量及内容完全自定义，链接自动识别
+      keys: {
+        "博客": "https://blog.vskendo.com/",
+        "github": "https://github.com/VsKendo"
+      },
+    },
+    // 友链
+    {
+      display: true,
+      anchor: {
+        id: "blog",
+        icon: "profile",
+        name: "友链",
+      },
+      header: {
+        title: "friends",
+        subtitle: "my friends",
+      },
+      blog: "https://segmentfault.com/blog/manerfan",
+      rss: "https://segmentfault.com/feeds/blog/manerfan",
+    },
+    // 履历
+    //    {
+    //      display: true,
+    //      anchor: {
+    //        id: "experience",
+    //        icon: "idcard",
+    //        name: "经历"
+    //      },
+    //      header: {
+    //        title: "experience",
+    //        subtitle: "my experience",
+    //      },
+    //      cards: [
+    //        {
+    //          title: "阿里巴巴（中国）网络技术有限公司",
+    //          //subtitle: "2018-08 至 今",
+    //          md: "<!--**<u>高级开发工程师</u>**-->\
+    //          \n\
+    //          \nAli的包容性带来更广的舞台与更大的成长空间，身为Alier，很荣幸能在这样的一家公司共同奋斗、发展",
+    //        },
+    //        {
+    //          title: "海航科技有限公司",
+    //          //subtitle: "2016-12 至 2018-08",
+    //          md: "<!--**<u>高级Java工程师</u>**-->\
+    //          \n\
+    //          \n海航是将我引向'互联网'的一艘船\
+    //          \n做为HNAer，很感谢HNA以及各位同仁能够提供这样一个舞台，来接触如此纷繁的、更为'互联网化'的技术，在HNA认识如此之多优秀的同仁尤为庆幸\
+    //          \n很遗憾HNA的一些变故影响到了很多事情，也带来了很多不愉快"
+    //        },
+    //        {
+    //          title: "北京数码视讯有限公司",
+    //          //subtitle: "2013-04 至 2016-12",
+    //          md: "<!--**<u>技术经理</u>**-->\
+    //          \n\
+    //          \n由于专业和课题的原因并未进入'理想'中的体制内，凭借着对coding的一腔热情，一头扎进了猿类大军\
+    //          \n做为数码人，很感激数码在职场专业化成长上给予的空间",
+    //        },
+    //        {
+    //          title: "西安电子科技大学",
+    //          subtitle: "2010-09 至 2013-04",
+    //          md: "**<u>研究生</u>**\
+    //          \n\
+    //          \n<!--**专业**：电路与系统-->\
+    //          \n\
+    //          \n惧怕过早接触社会选择了读研\
+    //          \n三年研究生涯对于(课题)研究的 **<u>意义</u>** 有了更深层次的理解\
+    //          \n由于自己的原因并没有继续读博，虽向往，但无悔",
+    //        },
+    //        {
+    //          title: "西安电子科技大学",
+    //          subtitle: "2016-09 至 2010-09",
+    //          md: "**<u>本科生</u>**\
+    //          \n\
+    //          \n<!--**专业**：电子信息工程-->\
+    //          \n\
+    //          \n第一次背井离乡，站了一个晚上的火车，远赴千里之外求学\
+    //          \n踏进校园的一刻很激动，第一天晚上心口刺痛的时候就开始想家了\
+    //          \n四年象牙塔生活很充实，也第一次感受到了四年同寝离别时的伤感之情",
+    //        },
+    //      ],
+    //    },
+    // 博客页
+    //    {
+    //      display: true,
+    //      anchor: {
+    //        id: "blog",
+    //        icon: "profile",
+    //        name: "博客",
+    //      },
+    //      header: {
+    //        title: "blog",
+    //        subtitle: "latest blog",
+    //      },
+    //      blog: "https://segmentfault.com/blog/manerfan",
+    //      rss: "https://segmentfault.com/feeds/blog/manerfan",
+    //    },
+  ],
+}
