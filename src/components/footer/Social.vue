@@ -6,7 +6,7 @@
         <a :style="{color: color}" :href="social['github'] || 'https://github.com/VsKendo'" target="_blank"><a-icon type="github" /></a>
         <!-- 微信 -->
         <a-popover arrowPointAtCenter>
-<!--            <template slot="content"><img style="width: 360px; max-width: 80vw; height: auto;"  alt="VsKendo" src="../../assets/wechat.jpg"/></template>-->
+<!--            <template slot="content"><img style="width: 360px; max-width: 80vw; height: auto;"  alt="VsKendo" src=""/></template>-->
             <template slot="content">暂未提供</template>
             <a :style="{color: color}"><a-icon type="wechat" /></a>
         </a-popover>
