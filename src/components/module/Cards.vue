@@ -1,16 +1,20 @@
 <template>
-    <a-space align="center" :size="40" class="link-navigation">
-      <div v-for="i in 3">
-        <div v-if="index+i-1<friends.length" class="card">
+  <a-space align="center"  :size="40" class="link-navigation">
+    <div v-for="i in 3">
+      <div v-if="index+i-1<friends.length" class="card">
+        <a :href="friends[index+i-1].link" target="_blank">
           <img class="ava" :data-src="friends[index+i-1].img" :src="friends[index+i-1].img" data-loaded="true"
                :alt="index+i-1">
           <div class="card-header">
-            <div><a :href="friends[index+i-1].link" target="_blank">{{ friends[index + i - 1].name }}</a></div>
+            <div>{{ friends[index + i - 1].name }}</div>
             <div class="info">{{ friends[index + i - 1].desc }}</div>
           </div>
-        </div>
+        </a>
       </div>
-    </a-space>
+      <div v-else class="card" style="border: 0;"></div>
+
+    </div>
+  </a-space>
 </template>
 
 <script lang="ts">
@@ -79,9 +83,11 @@ export default class Cards extends Vue {
 @media screen and (max-width: $--screen-sm-min) {
   .link-navigation {
     display: block;
+
     .card {
       margin-left: 10%;
     }
   }
 }
+
 </style>
