@@ -1,5 +1,5 @@
 <template>
-  <div class="content friends" id="friends">
+  <div class="friends" id="friends">
     <ModuleHeader :title="friends.header.title" :sub-title="friends.header.subtitle"/>
     <div v-for="(index) in friends.links.length">
       <Cards v-if="index%3===1"  :index="index-1"/>
@@ -25,7 +25,7 @@ import Cards from '@/components/module/Cards.vue';
     friends(): Module {
       return this.$store.getters.getModule('friends');
     },
-  }
+  },
 })
 export default class About extends Vue {
 }

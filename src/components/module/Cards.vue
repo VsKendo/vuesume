@@ -9,10 +9,8 @@
             <div class="info">{{ friends[index + i - 1].desc }}</div>
           </div>
         </div>
-        <!--      {{ friends[index + i - 1] }}-->
       </div>
     </a-space>
-
 </template>
 
 <script lang="ts">
@@ -38,8 +36,9 @@ export default class Cards extends Vue {
 </script>
 
 <style scoped lang="scss">
+@import '../../styles/variable';
+
 .link-navigation {
-  //display: block;
   clear: both;
   padding-left: 3%;
   padding-right: 5%;
@@ -75,5 +74,14 @@ export default class Cards extends Vue {
   margin: 0 !important;
   margin-right: 1em !important;
   border-radius: 4px;
+}
+
+@media screen and (max-width: $--screen-sm-min) {
+  .link-navigation {
+    display: block;
+    .card {
+      margin-left: 10%;
+    }
+  }
 }
 </style>
