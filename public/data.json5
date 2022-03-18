@@ -58,6 +58,21 @@
         "github": "https://github.com/VsKendo"
       },
     },
+    // 博客页
+    {
+      display: true,
+      anchor: {
+        id: "blog",
+        icon: "profile",
+        name: "博客",
+      },
+      header: {
+        title: "blog",
+        subtitle: "latest blog",
+      },
+      blog: "https://blog.vskendo.com",
+      rss: "https://blog.vskendo.com/atom.xml",
+    },
     // 友链
     {
       display: true,
@@ -158,20 +173,5 @@
     //            },
     //          ],
     //        },
-    // 博客页
-    //    {
-    //      display: true,
-    //      anchor: {
-    //        id: "blog",
-    //        icon: "profile",
-    //        name: "博客",
-    //      },
-    //      header: {
-    //        title: "blog",
-    //        subtitle: "latest blog",
-    //      },
-    //      blog: "https://segmentfault.com/blog/manerfan",
-    //      rss: "https://segmentfault.com/feeds/blog/manerfan",
-    //    },
   ],
 }

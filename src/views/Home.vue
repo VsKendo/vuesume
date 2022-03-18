@@ -30,8 +30,8 @@
         <!-- 根据配置动态模块的内容和顺序 -->
         <a-layout-content v-for="id in moduleIds" v-bind:key="id">
           <About v-if="id === 'about'"/>
-          <!--                    <Blog v-if="id === 'blog'"/>-->
-<!--          <Experience v-if="id === 'experience'"/>-->
+          <Blog v-if="id === 'blog'"/>
+          <!--          <Experience v-if="id === 'experience'"/>-->
           <Friends v-if="id === 'friends'"/>
         </a-layout-content>
         <div>更多内容开发中...<br> 这里是个人主页，您也可以浏览我的博客：https://blog.vskendo.com/</div>
