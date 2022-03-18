@@ -3,7 +3,7 @@
 <template>
   <a-row justify="center" align="middle" >
     <!-- 版权 -->
-    <div style="padding: 5px 10px 1px 10px;">Powered by <a href="https://github.com/manerfan/vuesume">Vuesume</a> (version: 24db6a4) </div>
+    <div style="padding: 5px;">Powered by <a href="https://github.com/manerfan/vuesume">Vuesume</a> (version: 24db6a4) </div>
     <!-- 头像 -->
     <a-col :xs="24" :sm="6" :md="4" :lg="4" :xl="4">
       <a-popover arrowPointAtCenter>

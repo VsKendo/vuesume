@@ -6,7 +6,7 @@ import _ from 'lodash';
 
 Vue.use(Vuex);
 
-const DEFAULT_TITLE = '林舍';
+const DEFAULT_TITLE = 'VsKendo';
 const DEFAULT_MODULE = {display: false, anchor: {id: '', icon: '', name: ''}, header: {title: '', subtitle: ''}};
 
 function find(modules: Module[], id: string) {

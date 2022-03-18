@@ -6,7 +6,7 @@
         <div class="bg back"><h1>奋笔疾书中...</h1></div>
         <!-- 脚贴 -->
         <div class="fork-me">
-            <a class="fork-me-link" href="https://github.com/manerfan/vuesume/wiki" target="_blank">
+            <a class="fork-me-link" href="https://github.com/VsKendo/vuesume" target="_blank">
                 <span class="fork-me-text">Docs On GitHub</span>
             </a>
         </div>
