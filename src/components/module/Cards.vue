@@ -11,7 +11,7 @@
           </div>
         </a>
       </div>
-      <div v-else class="card" style="border: 0;"></div>
+      <div v-else style="width: 300px;" />
 
     </div>
   </a-space>
