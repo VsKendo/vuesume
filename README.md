@@ -1,14 +1,11 @@
 # Vuesume
 
-基于vue实现的 **个人主页** 模板，原仓库地址为：https://github.com/manerfan/vuesume
+使用vue实现的 **个人主页** 模板
+👉[在线预览](http://www.vskendo.com/)👈
 
-删减了部分内容，轻量化了一下，改成了自己的。
+基于vuesume，原仓库地址为：https://github.com/manerfan/vuesume
 
-原仓库提供的：👉[在线预览](https://cv.manerfan.com)👈
-
-若想获得最原版的体验，请去原仓库下载原版。
-
-再次感谢原作者： [ 林舍 ](https://github.com/manerfan)
+我删减了部分内容，轻量化了一下，改成了自己的。
 
 
 
