@@ -54,8 +54,10 @@
       },
       // key - value 数量及内容完全自定义，链接自动识别
       keys: {
-        "博客": "https://blog.vskendo.com/",
-        "github": "https://github.com/VsKendo"
+        "blog": "https://blog.vskendo.com/",
+        "github": "https://github.com/VsKendo",
+        "e-mail": "smartcrazylin@gmail.com",
+        "qq": "28860356",
       },
     },
     // 博客页
