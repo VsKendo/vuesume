@@ -8,6 +8,7 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@ant-design/icons-vue": "^6.1.0",
     "@types/json5": "0.0.30",
     "@types/lodash": "^4.14.149",
     "animate.css": "^3.7.2",

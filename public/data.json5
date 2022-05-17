@@ -47,8 +47,8 @@
         ],
         md: "这个昵称的灵感来源于电视剧《亮剑》的主角李云龙所说的\"亮剑精神\"。\
         \n本人男，生于广东，纯南方汉子，目前正在读书，专业为软件工程~\
-        \n『曾打过ACM，可惜并没能获奖。只有一些蓝桥杯、天梯赛的奖项...\
-        \n有过论文、有过项目，后端一枚，热情投身猿类大军~\
+        \n『曾打过ACM-ICPC、CCPC、蓝桥杯、天梯赛等...\
+        \n有过论文、有过项目、得过些奖，后端一枚，热情投身猿类大军~\
         \n陌生人，很高兴遇见你\
         \n希望可以在未来，无论是什么样的事情，我们都不会忘记很重要的东西』",
       },
@@ -57,7 +57,7 @@
         "blog": "https://blog.vskendo.com/",
         "github": "https://github.com/VsKendo",
         "e-mail": "smartcrazylin@gmail.com",
-        "qq": "28860356",
+        "write up": "https://blog.nowcoder.net/vskendo",
       },
     },
     // 博客页
@@ -116,7 +116,7 @@
           img: "./img/woruo.png",
           name: "沃若",
           link: "www.woruo.online",
-          desc: "不知名算法竞赛选手"
+          desc: "桑之未落，其叶沃若"
         }
       ],
     },

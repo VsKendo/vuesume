@@ -34,7 +34,7 @@
           <!--          <Experience v-if="id === 'experience'"/>-->
           <Friends v-if="id === 'friends'"/>
         </a-layout-content>
-        <div>更多内容开发中...<br> 这里是个人主页，您也可以浏览我的博客：https://blog.vskendo.com/</div>
+        <div>更多内容开发中...<br> 这里是个人主页，网站名：前人裁树，后人乘凉</div>
         <!-- 页脚 -->
         <a-layout-footer>
           <CNNIC/>

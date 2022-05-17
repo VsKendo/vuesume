@@ -9,6 +9,7 @@
             </span>
             <span>{{banner.name|| 'VsKendo'}}</span>
         </div>
+
         <!-- 菜单 -->
         <a-layout-content class="menu">
             <a-menu>

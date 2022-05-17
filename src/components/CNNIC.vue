@@ -5,7 +5,7 @@
     <!-- 版权 -->
     <a-col :xs="24" :sm="8" :md="6" :lg="6" :xl="6">
       <Copyrights color="ghostwhite" :size="1"/><br />
-      <a style="color:ghostwhite;" target="_blank" href="https://beian.miit.gov.cn">粤ICP备2020112636号</a>
+      <a style="color:ghostwhite;" target="_blank" href="https://beian.miit.gov.cn">粤ICP备2020112636号-1</a>
     </a-col>
     <!-- 头像 -->
     <a-col :xs="24" :sm="6" :md="4" :lg="4" :xl="4">
