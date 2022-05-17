@@ -111,6 +111,12 @@
           name: "IceCream",
           link: "https://blog.xuegaogg.com",
           desc: "不愿意将就并且专注于网络技术的攻城狮（们）"
+        },
+        {
+          img: "./img/woruo.png",
+          name: "沃若",
+          link: "www.woruo.online",
+          desc: "不知名算法竞赛选手"
         }
       ],
     },

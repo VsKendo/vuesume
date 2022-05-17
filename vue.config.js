@@ -1,7 +1,8 @@
 const WebpackAliyunOssPlugin = require('./oss');
+const CopyWebpackPlugin = require('copy-webpack-plugin')
 
 module.exports = {
-    outputDir: 'docs',
+    outputDir: 'output',
     productionSourceMap: false,
 
     css: {
@@ -12,6 +13,12 @@ module.exports = {
         plugins: [
             new WebpackAliyunOssPlugin({
                 enable: false
+            }),
+            new CopyWebpackPlugin({
+                patterns: [{
+                    from: "./src/assets/img",
+                    to: 'img'
+                }]
             })
         ]
     },
